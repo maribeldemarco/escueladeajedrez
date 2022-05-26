@@ -78,22 +78,20 @@ comentarios2.style.background = 'none';}
             
             }  
 
-    
         
-            else if (! isNaN (telefono)) {  
-                document.getElementById("mensaje10").style.display = 'none';
-                telefono2.style.background = 'none';
+            else if (! isNaN (telefono)) {   document.getElementById("mensaje10").style.display = 'none';
+            telefono2.style.background = 'none';
+            }
+
+            else if (isNaN (telefono)) {
                 
-              
-        }
-      
+            }
 
-         //este else q viene no funciona,  quiero que si el telefono es null, tire el mensaje de error,
-         //pero si despues lleno con letras tire el mensaje de error 3
 
-            //else if ( isNaN (telefono)){     mensaje3.innerHTML = "Tu telefono debe tener numeros!";
-           // telefono2.style.background = 'none';
-            //check=false;}
+
+
+            //else {  document.getElementById("mensaje3").style.display = 'none';
+            //telefono2.style.background = 'none';}
          
 
 
