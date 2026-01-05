@@ -39,30 +39,31 @@
 
 
 
-    <form id="formulario" onsubmit="return validacion();">
+    <form id="formulario" onsubmit="return validacion();"  action="https://formspree.io/f/mdakvaqz"
+  method="POST">
 <h3 id="nuestraescuela2">Llená el formulario y nos contactaremos con vos a la brevedad</h3>
 <br>
         <label for="nombre"> Nombre</label> &nbsp;
-         <input type="text" name="datosPersonales" id="nombre" maxlength="15" placeholder="Escribe aquí tu nombre" >
+         <input type="text" name="nombre" id="nombre" maxlength="15" placeholder="Escribe aquí tu nombre" >
          <label id="mensaje"></label>  
           
     <br>
         <br>
         <label for="apellido"> Apellido</label> &nbsp; &nbsp;
-        <input type="text" name="datosPersonales" id="apellido" maxlength="15" placeholder="Escribe aquí tu apellido" >  
+        <input type="text" name="apellido" id="apellido" maxlength="15" placeholder="Escribe aquí tu apellido" >  
         <label id="mensaje2"></label>  
         <br>
         <br>
 
         <label for="telefono"> Teléfono</label> &nbsp;
-       <input type="text" name="datosPersonales" id="telefono" maxlength="10" placeholder="Escribe aquí tu teléfono" >  
+       <input type="text" name="telefono" id="telefono" maxlength="10" placeholder="Escribe aquí tu teléfono" >  
        <label id="mensaje3"></label>
        <label id="mensaje10"></label>
         <br>
         <br>
         <label for="email"> E-mail</label>  &nbsp; &nbsp;
           
-        <input type="email" name="datosPersonales" id="email" placeholder="Escribe aquí tu email" maxlength="28" >
+        <input type="email" name="email" id="email" placeholder="Escribe aquí tu email" maxlength="28" >
         <label id="mensaje4"></label>    
         <br>  
          <br> 
@@ -72,14 +73,14 @@
 <br>
 
 <label for="clasesVirtuales">
-    <input type="checkbox" name="tipoDeConsulta" id="clasesVirtuales" value="1"> Clases virtuales &nbsp;
+    <input type="checkbox" name="clasesVirtuales" id="clasesVirtuales" value="1"> Clases virtuales &nbsp;
 
 </label>
 <label for="clasesPresenciales">
-    <input type="checkbox" name="tipoDeConsulta" id="clasesPresenciales" value="2"> Clases presenciales &nbsp;
+    <input type="checkbox" name="clasesPresenciales" id="clasesPresenciales" value="2"> Clases presenciales &nbsp;
 </label>
 <label for="torneos">
-    <input type="checkbox" name="tipoDeConsulta" id="torneos" value="3"> Torneos
+    <input type="checkbox" name="torneos" id="torneos" value="3"> Torneos
 </label>
 <br>
 <label id="mensaje6"></label>
