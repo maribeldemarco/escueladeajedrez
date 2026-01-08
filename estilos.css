@@ -1,30 +1,18 @@
-
-#sobrenosotrosfoto{ max-height: 653px; }
+#sobrenosotrosfoto {
+    max-height: 653px;
+}
 
 
 @media screen and (max-width: 1920px) {
 
-    .whatsapp {
+    .whatsapp img {
+        width: 50px;
+        height: 50px;
         position: fixed;
-        width: 60px;
-        height: 60px;
-        bottom: 40px;
-        right: 40px;
-        background-color: #25d366;
-        color: #FFF;
-        border-radius: 50px;
-        text-align: center;
-        font-size: 30px;
-        box-shadow: 2px 2px 3px #999;
-        z-index: 100;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: all 0.3s;
+        bottom: 25px;
     }
 
-    .whatsapp:hover {
-        background-color: #128C7E;
+    .whatsapp img:hover {
         transform: scale(1.1);
     }
 
@@ -83,16 +71,16 @@
 /* Media queries para celulares */
 
 @media screen and (max-width: 500px) {
- #cuadros {
-    flex-direction: column;
-    align-items: center;
-  }
+    #cuadros {
+        flex-direction: column;
+        align-items: center;
+    }
 
-  .sobrenosotros {
-    max-width: 100%;
-    text-align: center;
-  }
-    
+    .sobrenosotros {
+        max-width: 100%;
+        text-align: center;
+    }
+
     header {
         display: flex;
         flex-direction: column;
@@ -536,27 +524,29 @@
 textarea {
     resize: none;
 }
-@media (max-width: 768px) {
-  #sucur {
-    width: 100%;
-    margin-right: 0;
-  }
 
-   input::placeholder,
+@media (max-width: 768px) {
+    #sucur {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    input::placeholder,
     textarea::placeholder {
         display: none !important;
     }
 
-      #formulario {
-    width: 90%;
-    max-width: none;
-  }
-  input::placeholder,
-  textarea::placeholder {
-    color: transparent;
-  }
-  #formulario textarea {
-    width: 95%;
-  }
-}
+    #formulario {
+        width: 90%;
+        max-width: none;
+    }
 
+    input::placeholder,
+    textarea::placeholder {
+        color: transparent;
+    }
+
+    #formulario textarea {
+        width: 95%;
+    }
+}
