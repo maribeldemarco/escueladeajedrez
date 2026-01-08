@@ -28,8 +28,8 @@ function validacion() {
         mensaje6.innerHTML = "Elija al menos una opción";
         check = false;
     }
-    if (comentarios == "" || comentarios.length < 30) {
-        mensaje5.innerHTML = "Ingrese un mensaje de al menos 30 caracteres";
+    if (comentarios == "" || comentarios.length < 20) {
+        mensaje5.innerHTML = "Ingrese un mensaje de al menos 20 caracteres";
         comentarios2.style.background = '#EFDECD'; //animación//
         check = false;
     }
@@ -95,6 +95,11 @@ function validacion() {
     }
     else {
         alert("Gracias por enviar tu formulario!");
+        setTimeout(function () {
+            document.getElementById('formulario').reset();
+        }, 100);
         return true;
+
+
     }
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,20 @@
     <title>Clases de ajedrez</title>
     <script src="https://kit.fontawesome.com/7736dcf51f.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abel&family=Akshar:wght@300;400&family=Cairo:wght@200&family=Fjalla+One&family=Indie+Flower&family=Square+Peg&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abel&family=Akshar:wght@300;400&family=Cairo:wght@200&family=Fjalla+One&family=Indie+Flower&family=Square+Peg&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
-    
+
     <header>
-        <h2><i class="fa-solid fa-chess-king"></i>   Escuela de Ajedrez</h2>
-    
-        
-    
+        <h2><i class="fa-solid fa-chess-king"></i> Escuela de Ajedrez</h2>
+
+
+
         <nav>
             <ul>
                 <li><a href="home.html">Inicio</a></li>
@@ -25,127 +29,144 @@
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
-    
-    
+
+
     </header>
 
     <section id="fotoprincipal">
         <img src="img/fotocontacto.jpg">
 
-        </section>
-<br>
-<br>
-<br>
-
-
-
-    <form id="formulario" onsubmit="return validacion();"  action="https://formspree.io/f/mdakvaqz"
-  method="POST">
-<h3 id="nuestraescuela2">Llená el formulario y nos contactaremos con vos a la brevedad</h3>
-<br>
-        <label for="nombre"> Nombre</label> &nbsp;
-         <input type="text" name="nombre" id="nombre" maxlength="15" placeholder="Escribe aquí tu nombre" >
-         <label id="mensaje"></label>  
-          
+    </section>
     <br>
+    <br>
+    <br>
+
+
+
+    <form id="formulario" onsubmit="return validacion();" action="https://formspree.io/f/mdakvaqz" method="POST">
+        <h3 id="nuestraescuela2">Llená el formulario y nos contactaremos con vos a la brevedad</h3>
+        <br>
+        <label for="nombre"> Nombre</label> &nbsp;
+        <input type="text" name="nombre" id="nombre" maxlength="15" placeholder="Escribe aquí tu nombre">
+        <label id="mensaje"></label>
+
+        <br>
         <br>
         <label for="apellido"> Apellido</label> &nbsp; &nbsp;
-        <input type="text" name="apellido" id="apellido" maxlength="15" placeholder="Escribe aquí tu apellido" >  
-        <label id="mensaje2"></label>  
+        <input type="text" name="apellido" id="apellido" maxlength="15" placeholder="Escribe aquí tu apellido">
+        <label id="mensaje2"></label>
         <br>
         <br>
 
         <label for="telefono"> Teléfono</label> &nbsp;
-       <input type="text" name="telefono" id="telefono" maxlength="10" placeholder="Escribe aquí tu teléfono" >  
-       <label id="mensaje3"></label>
-       <label id="mensaje10"></label>
+        <input type="text" name="telefono" id="telefono" maxlength="10" placeholder="Escribe aquí tu teléfono">
+        <label id="mensaje3"></label>
+        <label id="mensaje10"></label>
         <br>
         <br>
-        <label for="email"> E-mail</label>  &nbsp; &nbsp;
-          
-        <input type="email" name="email" id="email" placeholder="Escribe aquí tu email" maxlength="28" >
-        <label id="mensaje4"></label>    
-        <br>  
-         <br> 
-         
+        <label for="email"> E-mail</label> &nbsp; &nbsp;
 
-         <label for="consulta">Tipo de consulta</label>
-<br>
+        <input type="email" name="email" id="email" placeholder="Escribe aquí tu email" maxlength="28">
+        <label id="mensaje4"></label>
+        <br>
+        <br>
 
-<label for="clasesVirtuales">
-    <input type="checkbox" name="clasesVirtuales" id="clasesVirtuales" value="1"> Clases virtuales &nbsp;
 
-</label>
-<label for="clasesPresenciales">
-    <input type="checkbox" name="clasesPresenciales" id="clasesPresenciales" value="2"> Clases presenciales &nbsp;
-</label>
-<label for="torneos">
-    <input type="checkbox" name="torneos" id="torneos" value="3"> Torneos
-</label>
-<br>
-<label id="mensaje6"></label>
- 
-<br>
-<br>
-<label for="coment">Escribe aquí tus comentarios</label>
+        <label for="consulta">Tipo de consulta</label>
+        <br>
 
-<br>
-<textarea id="comentarios" name="comentarios" >
-       
-</textarea>
-<br>
-<label id="mensaje5"></label>
-<br>
-           <input type="submit" value="Enviar" />
+        <label for="clasesVirtuales">
+            <input type="checkbox" name="clasesVirtuales" id="clasesVirtuales" value="1"> Clases virtuales &nbsp;
+
+        </label>
+        <label for="clasesPresenciales">
+            <input type="checkbox" name="clasesPresenciales" id="clasesPresenciales" value="2"> Clases presenciales
             &nbsp;
-            &nbsp; 
-            <input type="reset"  value="Cancelar" id="Reseteo" />
+        </label>
+        <label for="torneos">
+            <input type="checkbox" name="torneos" id="torneos" value="3"> Torneos
+        </label>
         <br>
-        
-        </form>
+        <label id="mensaje6"></label>
 
         <br>
+        <br>
+        <label for="coment">Escribe aquí tus comentarios</label>
 
-<footer id="footer">
-    <div id="h2"><h2>Escuela de Ajedrez</h2>
-   </div>
+        <br>
+        <textarea id="comentarios" name="comentarios">
 
-    <div class="columna">
-    
-    <p id="negrita">  Atención al cliente</p>
+</textarea>
+        <br>
+        <label id="mensaje5"></label>
+        <br>
+        <input type="submit" value="Enviar" />
+        &nbsp;
+        &nbsp;
+        <input type="reset" value="Cancelar" id="Reseteo" />
+        <br>
 
-<p><img src="img/telefono.png"> &nbsp;115558545</p>
-<p><img src="img/email.png"> escuela@deajedrez.com</p>
-<p><img src="img/mapa.png"> Calle 4 piso 5 Caba</p>
-</div>
+    </form>
 
-<div class="columna">
-    
-    <p id="negrita"> Secciones</p>
+    <br>
 
-    <a href="home.html"></p>Home</p></a>
-    <a href="sobrenosotros.html"><p>Sobre Nosotros</p></a>
-    <a href="contacto.html"><p>Contacto</p></a>
+    <footer id="footer">
+        <div id="h2">
+            <h2>Escuela de Ajedrez</h2>
+        </div>
 
-</div>
+        <div class="columna">
 
-<div class="columna">
-   
-    <p id="negrita">Nuestras redes sociales</p>
- <p> 
-    <a href="https://www.instagram.com"><img src="img/instagram.png">&nbsp;&nbsp;&nbsp;Instagram</a>
-</p>
-<p>  <a href="https://www.facebook.com"><img src="img/facebook.png">&nbsp;&nbsp;&nbsp;Facebook</a>
-</p>
-<p><a href="https://www.twitter.com"><img src="img/twitter.png">&nbsp;&nbsp;&nbsp;Twitter</a>
-</p>
-</div>
+            <p id="negrita"> Atención al cliente</p>
 
+            <p><img src="img/telefono.png"> &nbsp;115558545</p>
+            <p><img src="img/email.png"> escuela@deajedrez.com</p>
+            <p><img src="img/mapa.png"> Calle 4 piso 5 Caba</p>
+        </div>
 
+        <div class="columna">
 
-</footer>
+            <p id="negrita"> Secciones</p>
 
-<script src="index.js"></script>
+            <a href="home.html"></p>Home</p></a>
+            <a href="sobrenosotros.html">
+                <p>Sobre Nosotros</p>
+            </a>
+            <a href="contacto.html">
+                <p>Contacto</p>
+            </a>
+
+        </div>
+
+        <div class="columna">
+
+            <p id="negrita">Nuestras redes sociales</p>
+            <p>
+                <a href="https://www.instagram.com"><img src="img/instagram.png">&nbsp;&nbsp;&nbsp;Instagram</a>
+            </p>
+            <p> <a href="https://www.facebook.com"><img src="img/facebook.png">&nbsp;&nbsp;&nbsp;Facebook</a>
+            </p>
+            <p><a href="https://www.twitter.com"><img src="img/twitter.png">&nbsp;&nbsp;&nbsp;Twitter</a>
+            </p>
+        </div>
+
+        <div class="whatsapp">
+            <a href="https://wa.me/5491165696658" class="whatsapp-float" target="_blank">
+                <svg width="30" height="30" viewBox="0 0 32 32" fill="none">
+                    <path
+                        d="M16 0C7.164 0 0 7.164 0 16c0 2.832.744 5.484 2.044 7.784L0 32l8.428-2.22A15.93 15.93 0 0016 32c8.836 0 16-7.164 16-16S24.836 0 16 0z"
+                        fill="#fff" />
+                    <path
+                        d="M25.36 22.88c-.364 1.032-2.14 1.892-3.124 2.02-.676.084-1.56.116-2.516-.156-.584-.168-1.332-.392-2.288-.768-4.02-1.58-6.64-5.652-6.844-5.912-.2-.26-1.636-2.18-1.636-4.156 0-1.976 1.04-2.948 1.408-3.352.368-.404.804-.504 1.072-.504.268 0 .536.004.772.012.248.012.58-.096.908.692.332.8 1.132 2.776 1.232 2.976.1.2.168.436.032.696-.136.26-.204.424-.404.652-.2.228-.42.508-.6.684-.2.196-.408.408-.176.8.232.392 1.036 1.708 2.224 2.764 1.528 1.356 2.816 1.78 3.216 1.98.4.2.632.168.864-.1.232-.268.996-1.164 1.264-1.564.268-.4.536-.336.904-.2.368.136 2.34 1.104 2.744 1.304.404.2.672.3.772.464.1.164.1.944-.264 1.976z"
+                        fill="#25D366" />
+                </svg>
+            </a>
+        </div>
+
+    </footer>
+
+    <script src="index.js"></script>
 
 </body>
+
 </html>
